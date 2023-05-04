@@ -10,7 +10,7 @@ import {
   FaXbox,
 } from "react-icons/fa";
 import { MdPhoneIphone } from "react-icons/md";
-import { SiNintendo } from "react-icons/si";
+import { SiNintendo, SiSega } from "react-icons/si";
 import { Platform } from "../hooks/useGames";
 
 interface Props {
@@ -28,6 +28,7 @@ const PlatformIconList = ({ platforms }: Props) => {
     android: FaAndroid,
     ios: MdPhoneIphone,
     web: BsGlobe,
+    sega: SiSega,
   };
 
   return (
